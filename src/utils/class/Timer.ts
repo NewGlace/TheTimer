@@ -17,9 +17,11 @@ export class Timer {
             }
         }, timer)
     }
-    clear(data: number | dataTimer) {
-        if (typeof(data) == "number") return this.list.delete(data);
-        else return this.list.delete(data.id);
+    clear(...datas: (number | dataTimer)[]) {
+        for (const data of datas) {
+            if (typeof(data) == "number") return this.list.delete(data);
+            else return this.list.delete(data.id);
+        }
     }
 
     setInterval(func: Function, time = 1000) {
