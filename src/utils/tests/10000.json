@@ -1,16 +1,16 @@
 {
-  "10000/10": {
+  "10000/100": {
     "classicTimer": {
-      "rss": 26,
-      "heapUsed": 6,
-      "heapTotal": 9,
-      "ms": 28
+      "rss": 33,
+      "heapUsed": 9,
+      "heapTotal": 14,
+      "ms": 142
     },
     "newTimer": {
       "rss": 25,
       "heapUsed": 5,
       "heapTotal": 7,
-      "ms": 23
+      "ms": 28
     }
   }
 }
