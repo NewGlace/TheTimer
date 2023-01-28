@@ -22,7 +22,7 @@ export function calculateData(func: Function, {timer, count, type}: {timer: numb
     func();    
     setTimeout(() => {
         const value = displayProcess("After Data");
-        const ms = Date.now() - dateNow - 2000;
+        const ms = Date.now() - dateNow - 500;
         console.log(value.text+`\x1b[32mMs: \x1b[33m${ms}\x1b[0m\n`);
 
         const vv = readdirSync("./src/utils/tests/");
@@ -41,5 +41,5 @@ export function calculateData(func: Function, {timer, count, type}: {timer: numb
             if (err) throw err;
             process.exit(0);
         });
-    }, 2000)
+    }, 500)
 }
