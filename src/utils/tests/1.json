@@ -1,0 +1,58 @@
+{
+  "1/10": {
+    "classicTimer": {
+      "rss": 22,
+      "heapUsed": 4,
+      "heapTotal": 5,
+      "ms": 8
+    },
+    "newTimer": {
+      "rss": 23,
+      "heapUsed": 5,
+      "heapTotal": 5,
+      "ms": 20
+    }
+  },
+  "1/1": {
+    "newTimer": {
+      "rss": 23,
+      "heapUsed": 5,
+      "heapTotal": 5,
+      "ms": 17
+    },
+    "classicTimer": {
+      "rss": 22,
+      "heapUsed": 5,
+      "heapTotal": 5,
+      "ms": 18
+    }
+  },
+  "1/100": {
+    "newTimer": {
+      "rss": 23,
+      "heapUsed": 5,
+      "heapTotal": 5,
+      "ms": 7
+    },
+    "classicTimer": {
+      "rss": 22,
+      "heapUsed": 4,
+      "heapTotal": 5,
+      "ms": 13
+    }
+  },
+  "1/1000": {
+    "newTimer": {
+      "rss": 23,
+      "heapUsed": 5,
+      "heapTotal": 5,
+      "ms": 15
+    },
+    "classicTimer": {
+      "rss": 23,
+      "heapUsed": 4,
+      "heapTotal": 5,
+      "ms": 14
+    }
+  }
+}

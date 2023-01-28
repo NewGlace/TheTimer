@@ -1,0 +1,16 @@
+{
+  "10/10": {
+    "classicTimer": {
+      "rss": 23,
+      "heapUsed": 5,
+      "heapTotal": 5,
+      "ms": 12
+    },
+    "newTimer": {
+      "rss": 23,
+      "heapUsed": 5,
+      "heapTotal": 5,
+      "ms": 26
+    }
+  }
+}
